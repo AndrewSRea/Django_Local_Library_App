@@ -24,13 +24,13 @@ import os  # needed by the code below
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = 'django-insecure-90fqb$v=l@ev*p1#rcu5$+hv(g$6l(x_##ln9o$!49i%(=%dq7'
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag')
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'exu@%^56bhq9u%12bqriqp1i!qw!qqzq32uohz6k0o4$r@ai=2')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['enigmatic-plateau-24768.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
